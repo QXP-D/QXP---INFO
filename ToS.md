@@ -1,38 +1,27 @@
-### 2. `PRIVACY_POLICY.md`
-*A formal regulatory policy declaration detailing data ingestion scopes to meet Discord Developer Policy section 3 requirements.*
+# Terms of Service for QXP Network Application
 
-```markdown
-# Privacy Policy for QXP Network Application
+**Last Updated:** June 7, 2026
 
-**Effective Date:** June 7, 2026
+Welcome to the QXP Application ("the Bot"). These Terms of Service ("Terms") govern your access to and use of the Bot's economic simulation features. By interacting with the Bot, you agree to be bound by these platform rules.
 
-This Privacy Policy explains how the QXP Application ("the Bot", "we", "us") collects, processes, stores, and protects data gathered from Discord users and servers ("Guilds"). By adding the Bot to your server or interacting with its features, you explicitly agree to the processing behaviors outlined in this document.
+## 1. Agreement to Terms
+By utilizing the Bot's slash commands or features, you warrant that you are in full compliance with Discord's overarching Terms of Service and Community Guidelines. If you do not agree to these terms, you must immediately cease all interactions with the Bot and remove it from your computing environments.
 
-## 1. Data We Collect
-To provide a secure and functional text-based economy simulation game, the Bot collects and logs the following minimal categories of data:
-*   **User Identifiers:** Discord User IDs (`userId`), Usernames, and custom text strings provided voluntarily by the user during profile registration (`networkId`).
-*   **Guild Identifiers:** Discord Server IDs (`guildId`) and Channel IDs (`eventChannelId`) used to localize configuration settings and economic balances per server.
-*   **Game Telemetry State:** Numeric representations of fictional balances (virtual wallet, virtual bank, virtual inventory item counts, virtual business levels, and user-initiated command usage count analytics).
-*   **Security Logs:** Timestamps and technical execution text records regarding internal command failures, transaction histories, or bot-level disciplinary flags managed by our automatic script loggers.
+## 2. License & Availability
+We grant you a limited, non-exclusive, revocable, non-transferable license to utilize the Bot's software within authorized Discord servers. The Bot is provided completely **"AS IS"** and **"AS AVAILABLE"**. We make no legal warranties that service delivery will be uninterrupted, error-free, or completely safe from data desyncs or infrastructure adjustments.
 
-## 2. What We Do NOT Collect
-*   We **never** read, log, cache, or store human conversational text messages within your channels.
-*   We **never** process or request personal real-world information, including names, emails, passwords, location data, or payment information.
-*   The Bot operates entirely on explicit Slash Command interactions.
+## 3. Acceptable Use Rules & Constraints
+You agree not to exploit or abuse the Bot's infrastructure. Prohibited actions include, but are not limited to:
+*   Utilizing self-bots, automation scripts, or external macros to run automated commands (e.g., automated farming loops).
+*   Intentionally exploiting architectural software bugs or mathematical duplications to artificially inflate your virtual balance records.
+*   Flooding, spamming, or launching denial-of-service (DoS) attempts against the Bot's gateway connection routines.
+*   Trading or selling Bot-specific simulation virtual assets (virtual cash, high-level banks, custom network IDs) in exchange for real-world fiat currency or real-world goods.
 
-## 3. How We Use Data
-Collected data is used solely to facilitate gameplay mechanics within your specific Discord server:
-*   Tracking simulation progression (saving virtual cash and items).
-*   Enforcing game constraints (cooldown limits, loan compounding debt, and server ban states).
-*   Routing randomized world event messages to designated text channels specified by server admins.
+## 4. System Enforcement & Suspension
+We reserve absolute authority to modify, restrict, freeze, or completely delete any user profile or server deployment from our database engine at any time, for any reason, without notice or liability. Reasons for account termination include software exploitation, database manipulation, or administrative safety blocks enacted by staff.
 
-## 4. Data Retention & Deletion
-*   **Retention:** Data profiles are stored persistently within an encrypted MongoDB database to maintain your progression across active gaming sessions.
-*   **Automated Purges:** If the Bot is kicked or removed from a Discord server, the server-wide configurations are retained but remain inert. 
-*   **Manual Deletion Requests:** Any user can request the permanent and absolute erasure of their financial profiles from our database infrastructure by contacting the development team directly or submitting an account reset inquiry via our dedicated support channels. Deletion requests are fulfilled within 72 hours.
+## 5. Limitation of Liability
+To the maximum extent permitted by applicable law, the development staff, operators, and hosting partners of the Bot shall not be held liable for any damages, structural losses, data corruptions, or server complications arising out of your use or inability to use this entertainment software application.
 
-## 5. Third-Party Sharing
-We do not sell, trade, rent, or lease any portion of user data to third-party ad networks, data brokers, or monetization networks. Data is strictly processed via our secure hosting environments (Render) and database backends (MongoDB Atlas).
-
-## 6. Contact & Support
-For data privacy inquiries, access requests, or emergency deletion requests, please contact the development staff directly via the official QXP support server network link displayed on the application profile card.
+## 6. Amendments to Terms
+We reserve the right to revise or adjust these terms at any time. Your continued deployment of the Bot's commands following adjustments constitutes absolute acceptance of the revised legal terms.
